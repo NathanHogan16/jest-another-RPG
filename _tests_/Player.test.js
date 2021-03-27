@@ -1,5 +1,6 @@
 const { isPlaceholderType } = require('@babel/types');
 const { test, expect } = require('@jest/globals');
+const { showHelpOnFail } = require('yargs');
 const Player = require('../lib/Player.js');
 const Potion = require('../lib/Potion.js');
 
